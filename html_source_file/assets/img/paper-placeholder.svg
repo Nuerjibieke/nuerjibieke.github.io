@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="300" viewBox="0 0 540 300">
+  <rect width="540" height="300" fill="#f1f5f8"/>
+  <rect x="226" y="72" width="88" height="112" rx="5" fill="none" stroke="#b4c5d4" stroke-width="3"/>
+  <path d="M247 103h46m-46 20h46m-46 20h30" stroke="#b4c5d4" stroke-width="3" stroke-linecap="round"/>
+  <text x="270" y="224" fill="#8195a8" text-anchor="middle" font-family="Georgia,serif" font-size="20">Publication figure</text>
+</svg>
