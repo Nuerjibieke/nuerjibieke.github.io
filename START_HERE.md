@@ -41,13 +41,26 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory html_source_file
 
 部署文件已准备好，会直接发布 `html_source_file`。以后提交到 `main` 即会自动更新。
 
-当前本地克隆的 origin 指向模板作者的仓库，仅记录来源。创建自己的仓库后，先改为自己的地址再推送：
+本地 `origin` 已指向自己的仓库 `Nuerjibieke/nuerjibieke.github.io`；`upstream` 指向模板作者，只用于保留来源。日常更新后提交并推送即可：
 
 ```sh
-git remote set-url origin https://github.com/Nuerjibieke/nuerjibieke.github.io.git
 git add .
-git commit -m "Set up academic homepage from Minimal Light"
-git push -u origin main
+git commit -m "Update academic homepage"
+git push origin main
 ```
 
 浏览器登录 GitHub 与终端 Git 的推送凭据是两套状态；浏览器已登录，不代表终端已有推送权限。网页上传时也要包含隐藏目录 `.github`。
+
+## 公开访客统计
+
+2026-10-23 接入 Flag Counter 免费计数器，标识 `dFxI`，服务器为 `s05.flagcounter.com`。三语页面共用同一计数器，不分别创建。公开详情：`https://info.flagcounter.com/dFxI`。
+
+- 按国家／地区显示访客数，默认 24 小时内对重复访客去重；同一个人隔天仍可再次计入，因此不代表累计不同自然人数。
+- Pageviews 是计数器图片加载次数，区别于去重访客数。图片缓存、拦截器和网络错误可能造成漏计；图片显示通常延迟约五分钟。
+- IP 估算的是大致网络所在地区，VPN 或代理可能改变结果。没有接入 GPS 定位。
+- 自启用时开始累计，无法补回之前未采集的访问；创建和验收过程产生的访问也会计入。
+- 计数器图片为主动加载，保证未滚动至页底的访问也有机会被计入；通过 `referrerpolicy="no-referrer"` 避免发送页面地址。图片请求仍会向服务商发送访客 IP、浏览器等网络信息。隐私说明：`https://www.flagcounter.com/privacy.html`。
+- 使用无邮箱注册模式，不提交邮箱或创建管理账户。公开详情页底部的 `Ignore this browser` 可排除当前浏览器自身访问。
+- 浅色／深色的图片仅颜色参数不同，均使用同一标识。图片里最多显示 12 个地区，更多地区可在公开详情页查看。
+
+维护时保留三版中的相同标识。服务故障时原主页内容仍能正常显示。移除三版 `.visitor-stats` 区域即可停止向该服务发送新的图片请求。
