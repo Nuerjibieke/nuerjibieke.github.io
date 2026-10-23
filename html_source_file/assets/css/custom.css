@@ -34,13 +34,11 @@ h2 { scroll-margin-top: 24px; }
 .template-credit { margin-top: 30px; }
 .template-credit small { color: #858c96; font-size: 12px; }
 .visitor-stats { margin-top: 30px; padding-top: 24px; border-top: 1px solid #e5e9ed; }
-.visitor-counter { display: inline-block; max-width: 100%; margin-bottom: 10px; }
-.visitor-counter img { display: block; max-width: 100%; height: auto; }
-.visitor-note { margin: 0 0 7px; font-size: 12px; line-height: 1.6; color: #787d85; }
+.visitor-counter { display: block; width: 100%; margin-bottom: 10px; }
+.visitor-counter img { display: block; width: 100%; height: auto; border-radius: 5px; }
 a:focus-visible { outline: 2px solid #39c; outline-offset: 4px; border-radius: 2px; }
 @media (prefers-color-scheme: dark) {
   .visitor-stats { border-color: #3f4756; }
-  .visitor-note { color: #a5aab5; }
   .language-switch a[aria-current="page"] { color: #3eb7f0; }
   .section-nav a { color: #b8bdc7; }
   .preview-note, .placeholder-copy, .section-hint { color: #a5aab5; }
