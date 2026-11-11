@@ -1,4 +1,4 @@
-# Nuerjibieke — Academic Homepage
+# Nujibieke Shabuerjiang — Academic Homepage
 
 A personal academic homepage in three languages, based on the official HTML version of [Minimal Light](https://github.com/yaoyao-liu/minimal-light).
 

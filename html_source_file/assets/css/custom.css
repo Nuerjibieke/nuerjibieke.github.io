@@ -2,6 +2,7 @@
 html { scroll-behavior: smooth; }
 body { font-family: "Crimson Pro", Georgia, "Times New Roman", "Songti SC", "Noto Serif SC", serif; }
 h2 { scroll-margin-top: 24px; }
+html[lang="zh-CN"] header h1 { font-size: 24px; }
 .wrapper::after { content: ""; display: block; clear: both; }
 .image.avatar img { height: auto; }
 .profile-position { margin: 0 0 5px; font-size: 1.1rem; }

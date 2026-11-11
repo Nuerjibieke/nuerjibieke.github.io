@@ -1,10 +1,11 @@
-# Nuerjibieke 的学术主页
+# 努吉别克·沙布尔江的学术主页
 
 本项目使用 [Minimal Light](https://github.com/yaoyao-liu/minimal-light) 官方提供的 HTML 版本，保留模板布局、配色和响应式样式，无需安装 Ruby 或前端依赖。
 
 - 模板版本：`1ea07f39518ac44644406380c83da6f89037c4fc`。
 - 原模板许可证保留在 `LICENSE`。
-- 姓名、学校、研究方向、论文和经历均明确标为待填写；GitHub 账号由本人提供。
+- 英文名为 Nujibieke Shabuerjiang，中文名为努吉别克·沙布尔江；GitHub 账号为 Nuerjibieke。学校、研究方向、论文和经历仍待补充。
+- 哈萨克语姓名暂按用户提供的汉字写法“努尔吉别克 萨布尔江”显示；正式西里尔拼写尚待本人确认，避免擅自转写专名。
 - 当前页面已移除模板作者的论文、经历、默认 Google Analytics 和演示站 canonical 链接。
 
 ## 本地预览
